@@ -1,0 +1,21 @@
+{
+    "name": "lukas/autoservices",
+    "autoload": {
+        "psr-4": {
+            "Lukas\\Autoservices\\": "App/"
+        },
+        "files": [
+            "config/config-bot.php",
+            "labels/marcas.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "brtech-chameleon",
+            "email": "chameleon.techbr@gmail.com"
+        }
+    ],
+    "require": {
+        "telegram-bot/api": "^2.5"
+    }
+}
